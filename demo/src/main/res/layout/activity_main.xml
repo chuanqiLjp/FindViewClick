@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"/>
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"/>
+
+    <EditText
+        android:id="@+id/EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EditText"/>
+
+    <CheckBox
+        android:id="@+id/CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"/>
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/RadioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton1"/>
+
+        <RadioButton
+            android:id="@+id/RadioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton2"/>
+    </RadioGroup>
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.chuanqiljp.findclick.demo.BlankFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
